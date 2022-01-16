@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navfeedback"
+            android:title="@string/feedback"
+            android:icon="@drawable/feedback_icon"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/navsettings"
+            android:title="@string/settings"
+            android:icon="@drawable/settings_icon"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/navabout"
+            android:title="@string/about"
+            android:icon="@drawable/about_icon"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/navexit"
+            android:title="@string/exit"
+            android:icon="@drawable/exit_icon"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item android:id="@+id/upcoming"
+        android:title="@string/upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item android:id="@+id/podcast"
+                android:title="@string/podcast"
+                android:icon="@drawable/podcast_icon"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+</menu>
